@@ -1,0 +1,2 @@
+# FinAnalyzer
+Stock Analyzing GPT
