@@ -73,7 +73,7 @@ The integration includes the following Yahoo Finance API endpoints:
 ### 2. Historical Data
 - **Endpoint**: `/api/v1/markets/stock/history`
 - **Purpose**: Historical price data over time
-- **Parameters**: `symbol`, `interval` (1d/1wk/1mo), `range` (1d/5d/1mo/3mo/6mo/1y/5y/max)
+- **Parameters**: `ticker`, `interval` (1d/1wk/1mo), `range` (1d/5d/1mo/3mo/6mo/1y/5y/max)
 
 ### 3. Financial Statistics
 - **Endpoint**: `/api/v1/markets/stock/statistics`
@@ -114,7 +114,10 @@ FinAnalyzer/
 ├── README.md                 # This file - main documentation
 ├── gpt-instructions.md       # Custom GPT instructions and guidelines
 ├── openai-schema.json        # OpenAPI schema for Actions configuration
-└── PRIVACY.md               # Privacy policy and data handling information
+├── PRIVACY.md               # Privacy policy and data handling information
+├── TERMS.md                 # Terms of service and disclaimers
+├── SETUP.md                 # Step-by-step configuration guide
+└── USAGE.md                 # User guide with examples and best practices
 ```
 
 ## License

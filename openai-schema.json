@@ -53,7 +53,7 @@
         "description": "Retrieves historical price data for a stock over a specified time period",
         "parameters": [
           {
-            "name": "symbol",
+            "name": "ticker",
             "in": "query",
             "description": "Stock ticker symbol (e.g., AAPL, TSLA, MSFT)",
             "required": true,
@@ -190,9 +190,7 @@
   },
   "security": [
     {
-      "rapidapi-key": []
-    },
-    {
+      "rapidapi-key": [],
       "rapidapi-host": []
     }
   ]
